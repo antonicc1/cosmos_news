@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Cosmos News — Notícias do Espaço</title>
+
+</head>
+<body>
+
+  <header id="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">
+        <i class='bx bxs-planet'></i>
+        COSMOS<span>NEWS</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#destaques">Destaques</a></li>
+        <li><a href="#exploracao">Exploração</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-search" aria-label="Buscar">
+          <i class='bx bx-search'></i>
+        </button>
+        <a href="#newsletter" class="btn-subscribe">Assinar</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag"><i class='bx bx-radio-circle-marked'></i> Ao Vivo</span>
+      <h1 class="hero-title">O Universo Nunca Para de Surpreender</h1>
+      <p class="hero-subtitle">
+        Acompanhe as últimas descobertas, missões e avanços da astronomia e exploração espacial com a profundidade que o cosmos merece.
+      </p>
+      <div class="hero-buttons">
+        <a href="#noticias" class="btn-primary">Explorar Notícias</a>
+        <a href="#destaques" class="btn-outline">Ver Destaques</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Role para baixo</span>
+      <i class='bx bx-chevron-down'></i>
+    </div>
+  </section>
+
+  <section id="noticias" class="news-section">
+    <div class="section-header">
+      <span class="section-tag">Últimas Notícias</span>
+      <h2 class="section-title">Em Alta no Cosmos</h2>
+      <p class="section-desc">As descobertas mais recentes do universo, direto para você.</p>
+    </div>
+
+    <div class="news-grid">
+
+      <article class="news-card news-card--featured">
+        <div class="card-image">
+          <img src="./images/exoplaneta.webp" alt="Telescópio James Webb detecta exoplaneta com oceano" />
+          <span class="card-badge">Exclusivo</span>
+        </div>
+        <div class="card-body">
+          <span class="card-category"><i class='bx bx-telescope'></i> Exoplanetas</span>
+          <h3 class="card-title">James Webb Detecta Sinais de Oceano Líquido em Exoplaneta a 120 Anos-Luz</h3>
+          <p class="card-excerpt">Astrônomos identificaram vapor d'água e temperatura compatível com vida na atmosfera de K2-18b, marcando uma virada histórica na busca por vida extraterrestre.</p>
+          <div class="card-meta">
+            <span><i class='bx bx-calendar'></i> 10 Mai 2026</span>
+            <span><i class='bx bx-time-five'></i> 5 min de leitura</span>
+          </div>
+        </div>
+      </article>
